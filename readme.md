@@ -26,5 +26,6 @@ Feel free to fork this project and contribute.
 
 ## About Pravaler
 
-To know more about Pravaler refer to https://www.pravaler.com.br/
-Come work with us: https://pravaler.gupy.io/
+To know more about Pravaler refer to https://www.pravaler.com.br/.
+
+Come work with us: https://pravaler.gupy.io/.
