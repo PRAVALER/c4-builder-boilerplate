@@ -1,0 +1,19 @@
+version: "3.3"
+services:
+  c4builder_boilerplate:
+    container_name: c4builder_boilerplate
+    image: c4builder_boilerplate
+    stdin_open: true
+    tty: true
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./:/app/
+    networks: 
+      - c4builder_boilerplate
+networks: 
+  c4builder_boilerplate:
+    driver: bridge
