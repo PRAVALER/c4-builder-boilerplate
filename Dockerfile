@@ -11,5 +11,3 @@ RUN npm install -g puppeteer --unsafe-perm=true
 RUN PUPPETEER_SKIP_DOWNLOAD=true npm i -g c4builder
 
 WORKDIR /app
-
-CMD c4builder site -w

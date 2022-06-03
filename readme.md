@@ -14,11 +14,15 @@ To use this project:
 - You will need Docker installed
 - Clone it
 - Run `docker-compose up -d`
+- Enter the container using `docker exec -it c4builder_boilerplate bash`
+- Run inside container `c4builder site -w`
 - Browse `http://localhost:3000`
 
-You can enter the container using `docker exec -it c4builder_boilerplate bash`
-
 Inside the container, you can run `c4builder config` to change the project configurations. Refer to [C4 Builder project page](https://adrianvlupu.github.io/C4-Builder) for more details.
+
+## More about C4-PlantUML macros
+
+To know more about all the macros you can use to build your diagrams, refer to [C4-PlantUML project page](https://github.com/plantuml-stdlib/C4-PlantUML)
 
 ## Contribute
 
