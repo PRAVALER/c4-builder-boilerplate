@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:26.10
 
 ARG ENV=dev
 
