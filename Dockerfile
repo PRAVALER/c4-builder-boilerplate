@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:stonking-20261105.1
 
 ARG ENV=dev
 
